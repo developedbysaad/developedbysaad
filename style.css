@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: white;
+    overflow: hidden;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: black;
+  }
+
+  .container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+  .counter {
+    color: white;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    padding: 0.5rem;
+}
+  .counter h2 {
+    font-weight: normal;
+  }
+  
+  .counter li {
+    display: inline-block;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  .counter li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+
+.imge {
+    padding-top: 2rem;
+}
+
+.animation-bg div {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 6px solid white;
+    border-radius: 50%;
+}
+
+.animation-bg div:nth-child(1) {
+    top: 12%;
+    left: 42%;
+    z-index: -1;
+    animation: animate 10s linear infinite;
+}
+
+.animation-bg div:nth-child(2) {
+    top: 70%;
+    left: 50%;
+    z-index: -1;
+    animation: animate 7s linear infinite;
+}
+
+.animation-bg div:nth-child(3) {
+    top: 17%;
+    left: 6%;
+    z-index: -1;
+    animation: animate 9s linear infinite;
+}
+
+.animation-bg div:nth-child(4) {
+    top: 20%;
+    left: 60%;
+    z-index: -1;
+    animation: animate 7s linear infinite;
+}
+
+.animation-bg div:nth-child(5) {
+    top: 67%;
+    left: 10%;
+    z-index: -1;
+    animation: animate 6s linear infinite;
+}
+
+.animation-bg div:nth-child(6) {
+    top: 80%;
+    left: 70%;
+    z-index: -1;
+    animation: animate 14s linear infinite;
+}
+
+.animation-bg div:nth-child(7) {
+    top: 30%;
+    left: 50%;
+    z-index: -1;
+    animation: animate 12s linear infinite;
+}
+
+.animation-bg div:nth-child(8) {
+    top: 35%;
+    left: 80%;
+    z-index: -1;
+    animation: animate 10s linear infinite;
+}
+
+.animation-bg div:nth-child(9) {
+    top: 85%;
+    left: 20%;
+    z-index: -1;
+    animation: animate 7s linear infinite;
+}
+
+.animation-bg div:nth-child(10) {
+    top: 85%;
+    left: 85%;
+    z-index: -1;
+    animation: animate 8s linear infinite;
+}
+
+.animation-bg div:nth-child(11) {
+    top: 40%;
+    left: 25%;
+    z-index: -1;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.3) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
